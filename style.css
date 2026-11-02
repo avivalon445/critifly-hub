@@ -14,3 +14,16 @@ pre{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);bord
 .soon{font-size:18px}
 .follow{display:block;margin-top:48px;padding:18px;border-radius:18px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.1);color:var(--text);text-decoration:none;text-align:center;font-weight:600}
 a{color:var(--hero)}
+.md-answer{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:4px 18px 8px;margin:16px 0}
+.md-answer h3,.md-answer h4,.md-answer h5{color:var(--text);font-size:19px;line-height:1.35;margin:18px 0 6px}
+.md-answer h4,.md-answer h5{font-size:17px;color:var(--hero)}
+.md-answer p,.md-answer li{font-size:16px}
+.md-answer strong{color:var(--text)}
+.md-answer ul,.md-answer ol{padding-right:22px;padding-left:0}
+.md-answer blockquote{margin:12px 0;padding:4px 14px;border-right:3px solid var(--hero);background:rgba(30,168,226,.06);border-radius:8px}
+.md-answer code{font-family:'Inter',monospace;background:rgba(255,255,255,.06);padding:1px 6px;border-radius:6px}
+.md-answer hr{border:0;border-top:1px solid rgba(255,255,255,.1);margin:18px 0}
+.md-table{overflow-x:auto;margin:12px 0}
+.md-answer table{border-collapse:collapse;width:100%;font-size:15px;color:var(--muted)}
+.md-answer th,.md-answer td{border:1px solid var(--grid);padding:8px 10px;text-align:right;vertical-align:top}
+.md-answer th{color:var(--text);background:rgba(30,168,226,.08);font-weight:600}
